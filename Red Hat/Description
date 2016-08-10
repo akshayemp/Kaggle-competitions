@@ -1,0 +1,20 @@
+Like most companies, Red Hat is able to gather a great deal of information over time about the behavior of individuals who interact with them. They’re in search of better methods of using this behavioral data to predict which individuals they should approach—and even when and how to approach them.
+
+In this competition, Kagglers are challenged to create a classification algorithm that accurately identifies which customers have the most potential business value for Red Hat based on their characteristics and activities.
+
+With an improved prediction model in place, Red Hat will be able to more efficiently prioritize resources to generate more business and better serve their customers.
+
+=========
+Details
+=========
+
+* Two seperate files to be joined, *people* and *activity*.
+* Both files has unique ids : people_id and activity_id.
+
+++++++++++++++
+The Challenge
+++++++++++++++
+
+The challenge of this competition is to predict the potential business value of a person who has performed a specific activity.
+
+The business value outcome is defined by a yes/no field attached to each unique activity in the activity file. The outcome field indicates whether or not each person has completed the outcome within a fixed window of time after each unique activity was performed.
